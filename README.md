@@ -11,7 +11,7 @@
 ## Code
 
 1. [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
-1. Maintain methods cyclomatic complexity as low as possible: avoid `if` statetments, never use nested `if`.
+1. Maintain methods lowest cyclomatic complexity: avoid `if` statetments when possible, never use nested `if`.
 1. The lesser indent your code have, the better. Avoid finding yourself farer than 4th indent.
 1. Use `pyflakes`, `isort`, `black` to format your code
 
