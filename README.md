@@ -1,4 +1,4 @@
-# pystyleguide
+# Python Code Style Guide
 
 ## Principles
 
