@@ -10,6 +10,7 @@
 
 ## Code
 
+1. Always prefer code maintainability and readability event if this might sacrifice some performance.
 1. [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 1. Keep methods LOC ideally less than 25 lines.
 1. Maintain methods lowest cyclomatic complexity: avoid `if` statetments when possible, never use nested `if`.
