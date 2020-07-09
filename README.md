@@ -7,7 +7,7 @@
 1. [Do not repeat yourself](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
 1. [Keep things simple](https://en.wikipedia.org/wiki/KISS_principle)
 1. [Keep things intuitive](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)
-1. [The Twelve Factor App](https://12factor.net/)
+1. [The Twelve-Factor App](https://12factor.net/)
 
 ## Code
 
