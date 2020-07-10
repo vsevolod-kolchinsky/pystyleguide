@@ -17,7 +17,7 @@
 1. Maintain methods lowest cyclomatic complexity: avoid `if` statetments when possible, never use nested `if`.
 1. Don't concatenate strings with `+` it's slower.
 1. Prefer `operator.itemgetter`, `.attrgetter`, etc. to `lambda` due to speed.
-1. The lesser indent your code have, the better. Avoid finding yourself farer than 4th indent.
+1. The lesser indent your code have, the better.
 1. Use `pyflakes`, `isort`, `black` to format your code
 
 
