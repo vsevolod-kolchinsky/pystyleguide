@@ -18,6 +18,7 @@
 1. Maintain methods lowest cyclomatic complexity: avoid `if` statements when possible (write branchless code), never use nested `if`.
 1. Don't concatenate strings with `+` it's slower and might be confusing, prefer f-string or `"".join()`.
 1. [The lesser indent your code has, the better](https://www.youtube.com/watch?v=CFRhGnuXG-4). 
-1. Use `pyflakes`, `isort`, `black` to format your code
+1. Use `isort`, and `black` to format your code.
+1. Use `pylint`, and `mypy` to check your code.
 
 
