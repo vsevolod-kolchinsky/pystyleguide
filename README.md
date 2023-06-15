@@ -15,7 +15,7 @@
 1. Always prefer code maintainability and readability even if this might sacrifice some performance.
 1. [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
 1. Keep functions and methods ideally less than 25 lines.
-1. Maintain methods lowest cyclomatic complexity: avoid `if` statements when possible (write branchless code), never use nested `if`.
+1. Maintain methods lowest cyclomatic complexity: avoid `if` statements when possible (write branchless code), never use nested `if`. Be [Never Nester](https://www.youtube.com/watch?v=CFRhGnuXG-4).
 1. Don't concatenate strings with `+` it's [unprofessional, error-prone, slower](https://codecalamity.com/stop-using-plus-signs-to-concatenate-strings/), and might be confusing, prefer f-string or `"".join()`.
 1. [The lesser indent your code has, the better](https://www.youtube.com/watch?v=CFRhGnuXG-4). 
 1. Use `isort`, and `black` to format your code.
