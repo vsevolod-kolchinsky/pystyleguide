@@ -21,4 +21,22 @@
 1. Use `isort`, and `black` to format your code.
 1. Use `pylint`, and `mypy` to check your code.
 
+### Method signature
 
+1. A method signature where the order of arguments "does not matter" (e.g. args are the same type) or the order is obvious is good for positional arguments:
+
+```python
+def add(a: float, b: float) -> float: ...
+```
+
+2. A method that expects non-interchangeable arguments is a good case to enforce keyword arguments, which will remove any ambiguity or wondering what should come first when calling the method:
+
+ ```python
+def set_token(self, *, domain: str, token: str, expires_in: int) -> None: ...
+```
+
+3. For a method around something you can combine positional and keyword arguments, using one positional for "something" and keyword arguments for everything else:
+
+```python
+def get_instance(self, instance_id: int, *, include_inactive: Optional[bool] = False) -> T: ...
+```
